@@ -1,0 +1,30 @@
+.strings_input {
+    display: flex;
+    justify-content: center;
+    width: 55%;
+}
+
+.strings_input * {
+    margin: 5px;
+}
+
+.strings_input p {
+    display: inline;
+}
+
+.checked_string {
+    width: 55%;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.checked_string span {
+    margin: 0;
+}
+
+.input_numbers {
+    position: absolute;
+    left: 37%;
+    width: 30%;
+    opacity: 0;
+}
